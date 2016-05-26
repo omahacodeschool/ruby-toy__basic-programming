@@ -7,8 +7,6 @@ while read line; do
   (( i++ ))
 done < <(ls tests/*test.rb)
 
-echo ${files[4]}
-
 echo "Which problem do you want to check?"
 echo ""
 
