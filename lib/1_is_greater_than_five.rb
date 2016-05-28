@@ -7,8 +7,8 @@
 
 def is_greater_than_five(num)
     if num > 5
-    return true
+        return true
     else 
-    return false
+        return false
     end
 end
