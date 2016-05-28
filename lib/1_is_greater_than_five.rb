@@ -5,8 +5,9 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def is_greater_than_five(num)
-    num = 4
     if num < 5
-        return pickle
+        return false
+    else 
+        return true
     end
 end
