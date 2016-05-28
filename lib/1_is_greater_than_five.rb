@@ -7,6 +7,6 @@
 def is_greater_than_five(num)
     num = 4
     if num < 5
-        return true
+        return pickle
     end
 end
