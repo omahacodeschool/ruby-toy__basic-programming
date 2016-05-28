@@ -5,5 +5,8 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def is_greater_than_five(num)
-  # Write your code here.
+    num = 4
+    if num < 5
+        return true
+    end
 end
