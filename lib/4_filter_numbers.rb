@@ -5,5 +5,9 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def filter_numbers(arr)
-  # Write your code here.
+
+arr.reject! {|i| i >= 10}
+
+return arr
+
 end
