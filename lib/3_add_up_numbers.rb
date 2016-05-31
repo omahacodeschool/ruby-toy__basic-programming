@@ -5,5 +5,7 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def add_up_numbers(arr)
-  # Write your code here.
+   arr.inject do |num,nextnum|
+     num + nextnum
+   end
 end
