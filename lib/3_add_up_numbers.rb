@@ -5,5 +5,9 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def add_up_numbers(arr)
-  # Write your code here.
+  total = 0
+  for i in arr
+    total += i
+  end
+  return total
 end
