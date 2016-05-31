@@ -5,5 +5,5 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def filter_numbers(arr)
-  # Write your code here.
+    return arr.delete_if{|x| x>9}
 end
