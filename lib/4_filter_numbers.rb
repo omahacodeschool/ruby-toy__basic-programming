@@ -5,5 +5,12 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def filter_numbers(arr)
-  # Write your code here.
+  arr.each { |x|
+  if x >= 10
+      arr.delete(x)
+  end}
+  arr.each { |x|
+  if x >= 10.00
+      arr.delete(x)
+  end}
 end
