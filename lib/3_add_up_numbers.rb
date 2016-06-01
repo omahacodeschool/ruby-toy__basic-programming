@@ -5,5 +5,12 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def add_up_numbers(arr)
-  # Write your code here.
+  
+  add_up_numbers = 0
+  arr.each_index do |i|
+      add_up_numbers += arr[i]
+  end
+  
+  return add_up_numbers
+  
 end
