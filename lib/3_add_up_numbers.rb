@@ -6,8 +6,6 @@
 
 def add_up_numbers(arr)
   total = 0
-  for i in arr
-    total += i
-  end
+  arr.each{ |i| total += i}
   return total
 end
