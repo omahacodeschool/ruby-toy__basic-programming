@@ -5,5 +5,10 @@
 # Run `bin/check` from the command line to execute the automated tests.
 
 def add_up_numbers(arr)
-  # Write your code here.
+  
+  sum = 0
+  arr.each {|i| sum += i}
+  
+  return sum
+  
 end
