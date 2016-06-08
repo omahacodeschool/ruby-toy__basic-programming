@@ -6,11 +6,9 @@
 
 def add_up_numbers(arr)
   
-  add_up_numbers = 0
-  arr.each_index do |i|
-      add_up_numbers += arr[i]
-  end
+  sum = 0
+  arr.each {|i| sum += i}
   
-  return add_up_numbers
+  return sum
   
 end
